@@ -1,12 +1,14 @@
 CFLAGS=-Wall -g
 
-all: clean catshit shithead
+shits = $(patsubst %.c,%,$(wildcard *.c))
 
-catshit:
-	cc -o catshit catshit.c
+all: $(shits)
+
+%: %.c
+	cc -o $@ $<
 
 shithead:
 	cc -o shithead shithead.c
 
 clean:
-	rm -f catshit shithead
+	rm -f $(shits)
