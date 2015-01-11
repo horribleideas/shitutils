@@ -9,6 +9,7 @@ Shitty reimplementation of some [GNU Core Utilities](https://www.gnu.org/softwar
 ## Utilities
 
 - `catshit` a shitty, incomplete reimplementation of `cat`
+- `shithead` a shitty, incomplete reimplementation of `head`
 
 ## License
 
