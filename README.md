@@ -9,6 +9,7 @@ Shitty reimplementation of some [GNU Core Utilities](https://www.gnu.org/softwar
 ## Utilities
 
 - `catshit` a shitty, incomplete reimplementation of `cat`
+- `falseshit` a shitty, incomplete reimplementation of `false`
 - `shithead` a shitty, incomplete reimplementation of `head`
 - `shitseq` a shitty, incomplete reimplementation of `seq`
 - `shityes` a shitty, incomplete reimplementation of `yes`
