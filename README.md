@@ -14,6 +14,7 @@ Shitty reimplementation of some [GNU Core Utilities](https://www.gnu.org/softwar
 - `shitseq` a shitty, incomplete reimplementation of `seq`
 - `shityes` a shitty, incomplete reimplementation of `yes`
 - `trueshit` a shitty, incomplete reimplementation of `true`
+- `shitlist` a shitty, incomplete reimplementation of `ls`
 
 ## License
 
