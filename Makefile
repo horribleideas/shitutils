@@ -1,14 +1,14 @@
-CFLAGS=-Wall -g
+CFLAGS=-Wall -g -std=c11 
 
 shits = $(patsubst %.c,%,$(wildcard *.c))
 
 all: $(shits)
 
 %: %.c
-	cc -o $@ $<
+	cc $(CFLAGS) -o $@ $<
 
-shithead:
-	cc -o shithead shithead.c
+shitlist:
+	cc $(CFLAGS) -o shitls shitlist.c
 
 clean:
-	rm -f $(shits)
+	rm -f $(shits) shitls
